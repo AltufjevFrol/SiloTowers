@@ -1,0 +1,11 @@
+.Value {
+    font: 26px 'Roboto-Regular', serif;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+    padding: 0 5px;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    
+}
