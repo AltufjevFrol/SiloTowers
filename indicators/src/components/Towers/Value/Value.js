@@ -6,7 +6,7 @@ let Value = (prop)=>{
 	}
 	return (
 		<section className={style.Value} style={styleColor}>
-			{prop.value}
+			{prop.value}{prop.children}
 		</section>
 		)
 }

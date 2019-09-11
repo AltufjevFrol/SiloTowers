@@ -1,22 +1,18 @@
 import React from 'react';
 import './App.css';
-import TopSection from './components/Towers/TopSection/TopSection.js'
-import MiddleSection from './components/Towers/MiddleSection/MiddleSection.js'
-import BottomSection from './components/Towers/BottomSection/BottomSection.js'
-import Titel from './components/Towers/Titel/Titel.js'
-import Value from './components/Towers/Value/Value.js'
+import Tower from './components/Towers/Tower.js'
+
 function App() {
 	return (
-		<div className="silo">
-			<Titel text="Уровень карналита в силосной башне №" id="1"/>
-			<Value value="100%" color="green"/>
-			<TopSection/>
-			<MiddleSection/>
-			<MiddleSection/>
-			<MiddleSection/>
-			<BottomSection/>
-			<Titel text="Масса карналита"/>
-			<Value value="1000" color="green"/>
+		<div id="indicators">
+			<Tower id="1" mass="1065"/>
+			<Tower id="2" mass="998"/>
+			<Tower id="3" mass="578"/>
+			<Tower id="4" mass="967"/>
+			<Tower id="5" mass="1365"/>
+			<Tower id="6" mass="1143"/>
+			<Tower id="7" mass="856"/>
+			<Tower id="8" mass="956"/>
 		</div>
 	);
 }

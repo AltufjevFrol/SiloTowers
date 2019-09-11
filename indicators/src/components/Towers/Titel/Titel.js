@@ -4,7 +4,7 @@ import style from './Titel.module.css'
 let Titel = (prop)=>{
 	return (
 		<section className={style.title}>
-			{prop.text}{prop.id}
+			{prop.children} {prop.id}
 		</section>
 		)
 }

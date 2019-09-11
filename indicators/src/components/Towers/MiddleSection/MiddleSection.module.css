@@ -1,5 +1,6 @@
 .MiddleSection {
 	margin-bottom: 3px;
+	position: relative;
 }
 .MiddleSectionSvg {
 	display: block;

@@ -1,3 +1,5 @@
-.silo {
-	width: 154px;
+#indicators{
+	background: #2D2D32;
+	display: flex;
+	justify-content: space-around;
 }

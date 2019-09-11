@@ -11,7 +11,7 @@ const styleGr3 = {
 	stopColor:"#48484F"
 }
 
-let MiddleSection = ()=>{
+let MiddleSection = (props)=>{
 	return (
 			<section className={style.MiddleSection}>
 			<svg className={style.MiddleSectionSvg} version="1.1" xmlns="http://www.w3.org/2000/svg" width="154px" height="100px">
@@ -23,6 +23,7 @@ let MiddleSection = ()=>{
 					</linearGradient>
 				<rect x="8" y="8" fill="url(#SVGR_MIDDLE1)" width="138" height="92"></rect>
 			</svg>
+			{props.children}
 		</section>
 		)
 }
