@@ -1,0 +1,8 @@
+.indicator {
+	position: absolute;
+	bottom: 0;
+	width: 122px;
+	background: #0eff0e63;
+	left: 16px;
+	transition: height 200ms;
+}
