@@ -19,10 +19,7 @@ class Tower extends React.Component {
 		this.udateState = this.udateState.bind(this);
 	}
 componentDidMount(){
-	let start =(+this.props.id * Math.floor(Math.random() * 2) + 1)*1000;
-	let period = 5000;
-	console.log(start);
-	setTimeout(()=>{setInterval(this.udateState, period)}, start)
+	setInterval(this.udateState, 1000)
 }
 udateState(){
 	let indicator = api(this.props.id);
@@ -59,7 +56,3 @@ udateState(){
 }
 
 export default Tower;
-
-/*
-<Tower id="" mass=""/>
-*/
