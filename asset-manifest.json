@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SiloTowers/static/css/main.f083cf5a.chunk.css",
+    "main.js": "/SiloTowers/static/js/main.69cea684.chunk.js",
+    "main.js.map": "/SiloTowers/static/js/main.69cea684.chunk.js.map",
+    "runtime~main.js": "/SiloTowers/static/js/runtime~main.2a7c660a.js",
+    "runtime~main.js.map": "/SiloTowers/static/js/runtime~main.2a7c660a.js.map",
+    "static/js/2.1c3c4b02.chunk.js": "/SiloTowers/static/js/2.1c3c4b02.chunk.js",
+    "static/js/2.1c3c4b02.chunk.js.map": "/SiloTowers/static/js/2.1c3c4b02.chunk.js.map",
+    "index.html": "/SiloTowers/index.html",
+    "precache-manifest.6eff4ef9e09b248ddb3a9b25cda469a6.js": "/SiloTowers/precache-manifest.6eff4ef9e09b248ddb3a9b25cda469a6.js",
+    "service-worker.js": "/SiloTowers/service-worker.js",
+    "static/css/main.f083cf5a.chunk.css.map": "/SiloTowers/static/css/main.f083cf5a.chunk.css.map"
+  }
+}
